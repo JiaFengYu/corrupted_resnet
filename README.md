@@ -9,7 +9,7 @@ The ResNet network will be the default ResNet50 that comes prepackaged with Tens
 
 Results indicate that the standard ResNet trained on the TensorFlow flowers dataset obtains a sunflower classification accuracy of 94.79% while the ones trained on increasingly more corrupt datasets have significantly worse accuracies that range from 0 to 66.66%. Finally, ResNets trained on the corrupted datasets but instead using L1 loss fare slightly better, with accuracies that range from 59.38 to 79.17%. These were all trained on the same sample of training images, although with different levels of corruption, and tested on the same validation set, which consists of 100 images the models have never seen before.
 
-Remark: training all 11 models take roughly 6-7 (on my machine each model takes roughly 30 mins to train through 5 epochs) and unfortunately, the pretrained .h5 models cannot be submitted because each file takes roughly 300mb of space. This is with a reduction of the training set to 600 images instead of almost 3000.
+Remark: training all 11 models take roughly 6-7h (on my machine each model takes roughly 30 mins to train through 5 epochs) and unfortunately, the pretrained .h5 models cannot be submitted because each file takes roughly 300mb of space. This is with a reduction of the training set to 600 images instead of almost 3000.
 
 
 ![image](https://github.com/JiaFengYu/corrupted_resnet/assets/48167665/c1f22820-48d7-48c6-95fc-60327ac1de68)
